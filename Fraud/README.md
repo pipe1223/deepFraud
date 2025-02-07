@@ -1,4 +1,4 @@
-# **DeepFraud: AI-powered Fraud Detection System**
+# **Credit Card Fraud Detection (World Bank dataset)**
 
 🚀 **DeepFraud** is a machine learning-based fraud detection system that helps identify fraudulent transactions using multiple models, including Logistic Regression, Random Forest, MLP, and LSTM. The application provides **real-time fraud risk analysis**, **feature importance visualization**, and **detailed explanations** for each transaction.
 

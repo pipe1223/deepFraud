@@ -1,45 +1,36 @@
-# **DeepFraud: AI-powered Fraud Detection System**
+# Data Science for Banking Domain
 
-🚀 **DeepFraud** is a machine learning-based fraud detection system that helps identify fraudulent transactions using multiple models, including Logistic Regression, Random Forest, MLP, and LSTM. The application provides **real-time fraud risk analysis**, **feature importance visualization**, and **detailed explanations** for each transaction.
+This repository is dedicated to exploring and analyzing datasets relevant to the banking sector. The primary focus is on fraud detection, risk assessment, and financial analytics using machine learning and data visualization techniques.
 
-![DeepFraud UI](https://github.com/pipe1223/deepFraud/blob/master/Fraud/interface_ui.png) 
+## Datasets and Analyses
+The following table summarizes the datasets analyzed in this repository, along with the challenges faced and the methods applied:
 
----
 
-## **📌 Features**
-✅ Supports multiple fraud detection models:
-   - Logistic Regression  
-   - Random Forest  
-   - MLP (Neural Network)  
-   - LSTM (Recurrent Neural Network)  
-   - (Optional) XGBoost  
 
-✅ Interactive UI powered by **Gradio**  
-✅ **Random transaction selection** from dataset  
-✅ **Feature importance visualization** with bar charts  
-✅ **Correlation heatmap** of fraud patterns  
-✅ **Detailed risk assessment & explanation**  
 
----
+| Dataset Name | Description | Challenges | Analysis Performed | Download |
+|-------------|-------------|-------------|-------------------|----------|
+| **Credit Card Fraud Detection** | Machine learning-based fraud detection system that helps identify fraudulent transactions. | Highly imbalanced dataset, feature importance analysis. | Explored feature distributions, applied Logistic Regression, Random Forest, MLP, and LSTM, visualized fraud patterns. | [![My Skills](https://skills-icons.vercel.app/api/icons?i=kaggle)](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud) [![My Skills](https://skillicons.dev/icons?i=github)](https://github.com/pipe1223/deepFraud/tree/master/Fraud)|
+| **Fraud Detection Dataset** | Focus on feature engineering and explainability in fraud detection. | Complex timestamp conversion, transaction patterns over time. | Extracted time-based features (day of week, hour), applied ML models, analyzed fraud trends. | [![My Skills](https://skills-icons.vercel.app/api/icons?i=kaggle)](https://www.kaggle.com/datasets/goyaladi/fraud-detection-dataset/data) [![My Skills](https://skillicons.dev/icons?i=github)](https://github.com/pipe1223/deepFraud/tree/master/credit_risk)|
+| **IEEE-CIS Fraud Detection** | Large-scale dataset for fraud detection in online transactions. | High-dimensional data, complex feature engineering, data merging. | Implemented LightGBM, engineered new features, optimized large-scale data processing. | [![My Skills](https://skills-icons.vercel.app/api/icons?i=kaggle)](https://www.kaggle.com/competitions/ieee-fraud-detection) [![My Skills](https://skillicons.dev/icons?i=github)](https://github.com/pipe1223/deepFraud/tree/master/CIS_Fraud)|
 
-## **🚀 Installation & Setup**
+## What you will get
+This repository employs various data science techniques, including:
+- **Data Preprocessing:** Handling missing values, feature scaling, and encoding categorical variables.
+- **Feature Engineering:** Creating meaningful features, such as time-based aggregations and transaction patterns.
+- **Machine Learning Models:** Logistic Regression, Random Forest, Multi-Layer Perceptron (MLP), LSTM, and LightGBM.
+- **Explainability & Visualization:** SHAP values, PDP plots, correlation heatmaps, and fraud trend analysis.
 
-### **Clone the Repository**
+
+## Installation & Usage
+Clone the repository:
 ```bash
 git clone https://github.com/pipe1223/deepFraud.git
-cd deepFraud
 ```
-## **📊 Dataset**
-The application uses the Credit Card Fraud Detection dataset ([creditcard.csv](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)).
-Ensure the dataset is placed in the dataset/ folder.
 
-## **Models Used**
-Logistic Regression - Baseline model
-Random Forest - Ensemble learning model
-MLP (Multi-Layer Perceptron) - Deep learning model
-LSTM (Long Short-Term Memory) - Sequential deep learning model
-XGBoost (Optional) - Gradient boosting model
+## Contributions
+Contributions are welcome! Feel free to submit pull requests or open issues for discussion.
 
-## **License**
-🔹 MIT License - Feel free to use and modify this project!
+## License
+This project is open-source and available under the MIT License.
 

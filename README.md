@@ -1,6 +1,13 @@
-# Data Science for Banking Domain
+# Data Science and AI for Banking Domain
 
-This repository is dedicated to exploring and analyzing datasets relevant to the banking sector. The primary focus is on fraud detection, risk assessment, and financial analytics using machine learning and data visualization techniques.
+<div align="center">
+  
+<img width="1200" alt="image" src="mats/analysis.png">
+
+</div>
+
+## Introduction 
+This repository is dedicated to exploring and analyzing datasets relevant to the banking sector. The primary focus is on fraud detection, risk assessment, financial analytics, and etc. using machine learning and data visualization techniques.
 
 ## Datasets and Analyses
 The following table summarizes the datasets analyzed in this repository, along with the challenges faced and the methods applied:
